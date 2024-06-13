@@ -46,9 +46,11 @@ function displayDrinkDetails(randomDrink) {
     deleteButton.appendChild(iconEl);
 
     // Set the classes for the elements
-    cardEl.className = 'col-4 mx-auto';
+    cardEl.className = 'col-lg-6 mx-auto';
     deleteButton.type = 'button';
     deleteButton.className = 'btn btn-danger mb-5';
+    deleteButton.style.fontSize = '24px';
+    deleteButton.style.padding = '3px 30px'; 
 
     // Set the text of the delete button
     deleteButton.appendChild;
