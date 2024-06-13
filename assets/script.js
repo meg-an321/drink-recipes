@@ -38,15 +38,27 @@ function displayDrinkDetails(randomDrink) {
     const instructionsEl = document.createElement('p');
     const deleteButton = document.createElement('button');
 
+    // Create an icon element
+    const iconEl = document.createElement('i');
+    iconEl.className = 'fa-solid fa-trash-can';
+
+    // Append the icon to the delete button
+    deleteButton.appendChild(iconEl);
+
+    // Set the classes for the elements
+    cardEl.className = 'col-4 mx-auto';
     deleteButton.type = 'button';
-    deleteButton.className = 'btn btn-danger';
+    deleteButton.className = 'btn btn-danger mb-5';
+
+    // Set the text of the delete button
+    deleteButton.appendChild;
+
 
     // Set the content of the elements
     nameEl.textContent = randomDrink.strDrink;
     imgEl.src = randomDrink.strDrinkThumb;
     imgEl.classList.add('drink-image');
     instructionsEl.textContent = randomDrink.strInstructions;
-    deleteButton.textContent = 'Delete';
     deleteButton.addEventListener('click', () => {
         // Remove the drink from the drinks array and local storage
         drinks = drinks.filter(drink => drink.idDrink !== randomDrink.idDrink);
