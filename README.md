@@ -32,6 +32,6 @@ As a future bartender I want to learn how to prepare drinks to showcase my skill
 
 ## Links
 
-[LiveURL](https://github.com/meg-an321/drink-recipes)
+[LiveURL](https://meg-an321.github.io/drink-recipes/)
 
-[GitHubRepo](https://meg-an321.github.io/drink-recipes/)
+[GitHubRepo](https://github.com/meg-an321/drink-recipes)
